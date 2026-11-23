@@ -16,7 +16,7 @@
 - [Egyptian prices: economics, not fraud](https://elkholy-consulting.com/notes/egyptian-prices-economics-not-fraud/): the touristic fee, layer by layer
 - [Why Egyptian hospital bills run high](https://elkholy-consulting.com/notes/why-egyptian-hospital-bills-run-high/): precedent files and service percentages
 - [Why a TPA fails at cost containment](https://elkholy-consulting.com/notes/why-tpa-fails-at-cost-containment/): incentives and the false-security effect
-- [Five incentive lines in your claims chain](https://elkholy-consulting.com/notes/five-incentives-in-your-claims-chain/): the alignment test
+- [Four incentive lines in your claims chain](https://elkholy-consulting.com/notes/five-incentives-in-your-claims-chain/): the alignment test
 - [The discount illusion](https://elkholy-consulting.com/notes/the-discount-illusion/): why a percentage off an asking price is not a saving
 - [The anatomy of a guarantee of payment](https://elkholy-consulting.com/notes/anatomy-of-a-guarantee-of-payment/): how hospitals read your GOP
 - [Managing a case from 3,000 kilometres](https://elkholy-consulting.com/notes/managing-cases-from-3000-kilometres/): the information problem
