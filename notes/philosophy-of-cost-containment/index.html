@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The philosophy of cost containment | Elkholy Consulting</title>
+<meta name="description" content="From Arrow's 1963 market failure to Munger's incentives, Goodhart's law and Kahneman's anchor: the five principles of cost containment that survive a market with no tariff.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://elkholy-consulting.com/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="en" href="https://elkholy-consulting.com/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="de" href="https://elkholy-consulting.com/de/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="nl" href="https://elkholy-consulting.com/nl/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="fr" href="https://elkholy-consulting.com/fr/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="pl" href="https://elkholy-consulting.com/pl/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="cs" href="https://elkholy-consulting.com/cs/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="it" href="https://elkholy-consulting.com/it/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="ru" href="https://elkholy-consulting.com/ru/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="lt" href="https://elkholy-consulting.com/lt/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="bg" href="https://elkholy-consulting.com/bg/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="ro" href="https://elkholy-consulting.com/ro/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="el" href="https://elkholy-consulting.com/el/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="sr" href="https://elkholy-consulting.com/sr/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="hu" href="https://elkholy-consulting.com/hu/notes/philosophy-of-cost-containment/">
+<link rel="alternate" hreflang="x-default" href="https://elkholy-consulting.com/notes/philosophy-of-cost-containment/">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://elkholy-consulting.com/notes/philosophy-of-cost-containment/">
+<meta property="og:site_name" content="Elkholy Consulting">
+<meta property="og:title" content="The philosophy of cost containment | Elkholy Consulting">
+<meta property="og:description" content="From Arrow's 1963 market failure to Munger's incentives, Goodhart's law and Kahneman's anchor: the five principles of cost containment that survive a market with no tariff.">
+<meta property="og:image" content="https://elkholy-consulting.com/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "The philosophy of cost containment", "description": "Arrow, Akerlof, DRGs, Goodhart, anchoring, repeated games: the five principles that survive.", "datePublished": "2026-06-13", "dateModified": "2026-06-13", "mainEntityOfPage": "https://elkholy-consulting.com/notes/philosophy-of-cost-containment/", "inLanguage": "en", "author": {"@type": "Person", "name": "Dr Hossam Elkholy", "jobTitle": "Independent Medical Cost-Containment Consultant", "description": "Physician and physician with years of senior clinical and cost responsibility for hospital care on Egypt's Red Sea coast", "url": "https://elkholy-consulting.com/"}, "publisher": {"@type": "Organization", "name": "Elkholy Consulting", "url": "https://elkholy-consulting.com/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Elkholy Consulting", "item": "https://elkholy-consulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Field notes", "item": "https://elkholy-consulting.com/notes/"}, {"@type": "ListItem", "position": 3, "name": "The philosophy of cost containment.", "item": "https://elkholy-consulting.com/notes/philosophy-of-cost-containment/"}]}</script>
+<style>
+.quotecard{position:relative;background:#FFFFFF;border:1px solid #D8E2EC;border-left:5px solid #1B5FA8;
+border-radius:12px;padding:1.15rem 1.4rem 1.05rem 3.4rem;margin:1.8rem 0}
+.quotecard::before{content:"\201C";position:absolute;left:.95rem;top:.35rem;font-family:"Playfair Display",serif;
+font-size:3.2rem;line-height:1;color:#A9C2DC}
+.quotecard p{margin:0;font-family:"Playfair Display",serif;font-style:italic;font-size:1.14rem;line-height:1.45;color:#10202F}
+.quotecard cite{display:block;margin-top:.55rem;font-style:normal;font-family:"IBM Plex Mono",monospace;
+font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:#134B86}
+.timeline{position:relative;margin:1.8rem 0;padding-left:1.55rem;border-left:3px solid #A9C2DC}
+.timeline .tl{position:relative;margin:0 0 1.15rem;padding-left:.4rem}
+.timeline .tl::before{content:"";position:absolute;left:-2.05rem;top:.3rem;width:12px;height:12px;border-radius:50%;
+background:#1B5FA8;box-shadow:0 0 0 3px #E9F0F7,0 0 0 4.5px #1B5FA8}
+.timeline .tl b{display:block;font-family:"IBM Plex Mono",monospace;font-size:.8rem;letter-spacing:.12em;color:#134B86;margin-bottom:.15rem}
+.timeline .tl span{color:#2C3E50;font-size:.94rem;line-height:1.5;display:block}
+.versus{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.9rem;margin:1.6rem 0}
+.versus .vc{background:#FFFFFF;border:1px solid #D8E2EC;border-radius:12px;overflow:hidden}
+.versus .vc h5{margin:0;padding:.6rem .95rem;font-family:"IBM Plex Mono",monospace;font-size:.72rem;
+letter-spacing:.18em;text-transform:uppercase;color:#FFFFFF}
+.versus .vc.bed h5{background:#8C2F39}.versus .vc.desk h5{background:#2F5D8C}
+.versus .vc ul{margin:0;padding:.7rem 1rem .8rem 2.1rem}
+.versus .vc li{font-size:.9rem;margin:.3rem 0}
+.versus .vc li.dim{color:#5B6C7D;text-decoration:line-through;text-decoration-color:#A9C2DC}
+.shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.7rem;margin:1.6rem 0}
+.shelf .bk{background:#FFFFFF;border:1px solid #D8E2EC;border-left:7px solid var(--bc,#1B5FA8);border-radius:8px;
+padding:.8rem .9rem;min-height:104px;display:flex;flex-direction:column;justify-content:space-between}
+.shelf .bk b{font-family:"Playfair Display",serif;font-size:.93rem;color:#10202F;line-height:1.3}
+.shelf .bk span{font-family:"IBM Plex Mono",monospace;font-size:.66rem;letter-spacing:.07em;color:#5B6C7D;margin-top:.55rem;display:block}
+
+:root{--ground:#F4F7FA;--paper:#FFFFFF;--paper2:#E9F0F7;--ink:#10202F;--ink2:#2C3E50;--ink3:#5B6C7D;
+--brass:#1B5FA8;--brass-deep:#134B86;--gilt:#A9C2DC;--green:#0B5C48;--green-lit:#0E7A5F;
+--claret:#8C2F39;--claret-soft:#F7ECEC;--steel:#2F5D8C;--steel-soft:#E7EEF6;--line:#D8E2EC}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:Inter,system-ui,sans-serif;
+line-height:1.65;font-size:1.04rem;overflow-x:hidden}
+img,svg,table{max-width:100%}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.4rem 0;border-radius:10px}
+.tablewrap table{margin:0}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+padding:.9rem clamp(1rem,4vw,3rem);border-bottom:3px solid #1B5FA8;background:#0F2D4E}
+.brand{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:#FFFFFF}
+.brand .seal{width:34px;height:34px;border-radius:50%;border:1.6px solid rgba(255,255,255,.55);
+display:flex;align-items:center;justify-content:center;font-family:"Playfair Display",serif;
+font-weight:700;color:#EAF2FA;font-size:1.15rem}
+.brand .word{font-family:"Playfair Display",serif;font-weight:700;letter-spacing:.18em;font-size:1.1rem}
+.topbar a.cta{font-family:"IBM Plex Mono",monospace;font-size:.78rem;letter-spacing:.16em;
+text-transform:uppercase;color:#EAF2FA;text-decoration:none;border:1px solid rgba(255,255,255,.5);
+border-radius:99px;padding:.5rem 1rem;white-space:nowrap}
+.topbar a.cta:hover{background:rgba(255,255,255,.14)}
+main{max-width:780px;margin:0 auto;padding:clamp(1.6rem,5vh,3.4rem) clamp(1rem,4vw,2rem) 4rem}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:.74rem;letter-spacing:.3em;
+text-transform:uppercase;color:var(--brass-deep);margin:0 0 .9rem}
+h1{font-family:"Playfair Display",serif;font-weight:700;font-size:clamp(1.9rem,4.4vw,2.7rem);
+line-height:1.14;margin:0 0 .8rem;letter-spacing:-.01em}
+.byline{font-size:.92rem;color:var(--ink3);margin:0 0 2.2rem;padding-bottom:1.4rem;border-bottom:1px solid var(--line)}
+.byline b{color:var(--ink2);font-weight:600}
+h2{font-family:"Playfair Display",serif;font-weight:600;font-size:clamp(1.3rem,2.6vw,1.6rem);
+line-height:1.25;margin:2.4rem 0 .7rem;color:var(--ink)}
+p{margin:.85rem 0;color:var(--ink2)}
+li{color:var(--ink2);margin:.4rem 0}
+.callout{background:var(--paper);border:1px solid var(--gilt);border-left:4px solid var(--brass);
+border-radius:10px;padding:1rem 1.2rem;margin:1.6rem 0;color:var(--ink2)}
+.callout.green{border-color:var(--green-lit);border-left-color:var(--green)}
+.callout.claret{border-color:#C99;border-left-color:var(--claret);background:var(--claret-soft)}
+.callout b{color:var(--ink)}
+table{width:100%;border-collapse:collapse;margin:1.4rem 0;background:var(--paper);
+border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:.95rem}
+th{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+color:var(--brass-deep);text-align:left;padding:.7rem .85rem;border-bottom:1.5px solid var(--gilt);background:var(--paper2)}
+td{padding:.65rem .85rem;border-bottom:1px solid var(--line);vertical-align:top;color:var(--ink2)}
+tr:last-child td{border-bottom:none}
+.strike{text-decoration:line-through;text-decoration-color:var(--brass);color:var(--ink3)}
+.good{color:var(--green);font-weight:600}
+.bad{color:var(--claret);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.8rem;margin:1.6rem 0}
+.stat{background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--brass);
+border-radius:10px;padding:.9rem 1rem;text-align:center}
+.stat b{display:block;font-family:"Playfair Display",serif;font-size:1.7rem;color:var(--brass-deep);line-height:1.1;margin-bottom:.3rem}
+.stat.claret{border-top-color:var(--claret)} .stat.claret b{color:var(--claret)}
+.stat.green{border-top-color:var(--green)} .stat.green b{color:var(--green)}
+.stat.steel{border-top-color:var(--steel)} .stat.steel b{color:var(--steel)}
+.stat span{font-size:.82rem;color:var(--ink3);line-height:1.4;display:block}
+.pull{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(1.25rem,2.4vw,1.55rem);
+line-height:1.4;color:var(--green);border-left:4px solid var(--gilt);padding:.4rem 0 .4rem 1.2rem;margin:2rem 0}
+.dlg{margin:1.8rem 0;border:1px solid var(--line);border-radius:12px;background:var(--paper);padding:1.1rem 1.2rem}
+.dlg .cap{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;
+color:var(--ink3);margin:0 0 .9rem}
+.turn{margin:.8rem 0;padding-left:1rem;border-left:3px solid var(--line)}
+.turn .who{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;display:block;margin-bottom:.15rem}
+.turn p{margin:.15rem 0;color:var(--ink2)}
+.turn.desk{border-left-color:var(--steel)} .turn.desk .who{color:var(--steel)}
+.turn.hosp{border-left-color:var(--claret)} .turn.hosp .who{color:var(--claret)}
+.turn.tpa{border-left-color:var(--brass)} .turn.tpa .who{color:var(--brass-deep)}
+.turn.me{border-left-color:var(--green)} .turn.me .who{color:var(--green)}
+.chart{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;margin:1.6rem 0}
+.chart .t{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-deep);margin:0 0 .6rem}
+.chart .src{font-size:.76rem;color:var(--ink3);margin:.5rem 0 0}
+.chart svg{width:100%;height:auto;display:block}
+.chain{display:flex;flex-wrap:wrap;align-items:stretch;gap:.5rem;margin:1.6rem 0}
+.chain .node{flex:1 1 130px;background:var(--paper);border:1.5px solid var(--line);border-radius:10px;
+padding:.7rem .8rem;text-align:center;position:relative}
+.chain .node b{display:block;font-size:.95rem;color:var(--ink)}
+.chain .node span{font-size:.76rem;color:var(--ink3);display:block;margin-top:.25rem;line-height:1.35}
+.chain .node.steel{border-color:var(--steel);background:var(--steel-soft)}
+.chain .node.claret{border-color:var(--claret);background:var(--claret-soft)}
+.chain .node.green{border-color:var(--green);background:#E5F2EE}
+.chain .arrow{align-self:center;color:var(--brass-deep);font-size:1.3rem;flex:0 0 auto}
+.wf{margin:1.6rem 0}
+.wf .bar{display:flex;min-height:46px;border-radius:9px;overflow:hidden;border:1px solid var(--line);align-items:stretch}
+.wf .seg{display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-size:.6rem;
+font-family:"IBM Plex Mono",monospace;letter-spacing:.02em;line-height:1.14;padding:.3rem .28rem;
+text-align:center;white-space:normal;overflow:hidden;word-break:break-word;-webkit-hyphens:auto;hyphens:auto}
+.wf .legend{display:flex;flex-wrap:wrap;gap:.4rem 1.2rem;margin-top:.6rem;font-size:.8rem;color:var(--ink3)}
+.wf .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:.35rem}
+.ctabox{background:linear-gradient(180deg,#11325A,#0A2138);border:1px solid #2F5D8C;
+border-radius:14px;padding:1.4rem 1.5rem;margin:2.6rem 0 0;box-shadow:0 18px 40px -24px rgba(10,33,56,.55)}
+.ctabox h3{font-family:"Playfair Display",serif;margin:0 0 .5rem;font-size:1.25rem;color:#FFFFFF}
+.ctabox p{margin:.4rem 0;color:#C9DAEB}
+.ctabox .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1rem}
+.ctabox a{display:inline-block;text-decoration:none;font-weight:600;border-radius:99px;
+padding:.6rem 1.2rem;border:1px solid #7FA8CC;color:#DCEAF7;font-size:.95rem}
+.ctabox a.primary{background:#0E7A5F;border-color:#0E7A5F;color:#FFFFFF}
+.related{margin:2.6rem 0 0;padding-top:1.4rem;border-top:1px solid var(--line)}
+.related h3{font-family:"IBM Plex Mono",monospace;font-size:.74rem;letter-spacing:.26em;
+text-transform:uppercase;color:var(--brass-deep);margin:0 0 .7rem}
+.related a{display:block;color:var(--ink2);text-decoration:none;padding:.45rem 0;font-weight:500}
+.related a:hover{color:var(--brass-deep)}
+.hub{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:.9rem;margin:1.2rem 0 2rem}
+.hub a{display:block;background:var(--paper);border:1px solid var(--line);border-radius:12px;
+padding:1rem 1.1rem;text-decoration:none;transition:border-color .2s, transform .2s}
+.hub a:hover{border-color:var(--gilt);transform:translateY(-2px)}
+.hub a b{display:block;font-family:"Playfair Display",serif;font-size:1.08rem;color:var(--ink);margin-bottom:.3rem;line-height:1.3}
+.hub a span{font-size:.84rem;color:var(--ink3);line-height:1.45;display:block}
+.hub a .tag{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.16em;
+text-transform:uppercase;color:var(--brass-deep);margin-bottom:.45rem}
+.hubcap{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;
+color:var(--brass-deep);margin:2.2rem 0 .8rem}
+footer{border-top:1px solid var(--line);background:var(--paper);padding:1.6rem clamp(1rem,4vw,3rem);
+font-size:.88rem;color:var(--ink3);display:flex;flex-wrap:wrap;gap:.6rem 2rem;justify-content:space-between}
+footer a{color:var(--brass-deep);text-decoration:none}
+.notice{background:#0F2D4E;color:#DCEAF7;border-radius:10px;padding:.8rem 1.1rem;margin:0 0 1.8rem;
+font-family:"IBM Plex Mono",monospace;font-size:.8rem;letter-spacing:.06em}
+
+.hook{display:flex;gap:1.2rem;align-items:center;background:linear-gradient(135deg,#0F2D4E,#123861);
+border-radius:14px;padding:1.15rem 1.4rem;margin:0 0 2rem;box-shadow:0 18px 38px -26px rgba(10,33,56,.55)}
+.hook b{font-family:"Playfair Display",serif;font-size:clamp(2rem,5.5vw,2.9rem);color:#FFFFFF;line-height:1;white-space:nowrap}
+.hook .ht{margin:0;font-weight:600;color:#EAF2FA;font-size:1.02rem;line-height:1.45}
+.hook .hs{margin:.25rem 0 0;color:#9CC4EA;font-size:.86rem;line-height:1.45}
+.bottomline{display:flex;gap:1rem;align-items:flex-start;background:#E5F2EE;border-left:5px solid #0E7A5F;
+border-radius:10px;padding:1rem 1.2rem;margin:2.4rem 0 0}
+.bottomline .bk{font-family:"IBM Plex Mono",monospace;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:#0B5C48;white-space:nowrap;padding-top:.3rem}
+.bottomline p{margin:0;color:#10202F;font-weight:600;font-size:1.02rem;line-height:1.5}
+.sixgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem;margin:1.5rem 0}
+.sixgrid .cl{background:#FFFFFF;border:1px solid #D8E2EC;border-top:3px solid #1B5FA8;border-radius:10px;padding:.85rem .95rem}
+.sixgrid .cl i{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;
+background:#0F2D4E;color:#FFFFFF;font-style:normal;font-family:"IBM Plex Mono",monospace;font-size:.85rem;margin-bottom:.5rem}
+.sixgrid .cl b{display:block;color:#10202F;font-size:.95rem;margin-bottom:.25rem}
+.sixgrid .cl span{color:#5B6C7D;font-size:.82rem;line-height:1.45;display:block}
+.checksteps{counter-reset:cs;display:flex;flex-wrap:wrap;gap:.6rem;margin:1.4rem 0}
+.checksteps span{counter-increment:cs;flex:1 1 160px;position:relative;background:#FFFFFF;border:1px solid #D8E2EC;
+border-radius:10px;padding:.75rem .8rem .75rem 2.5rem;font-size:.86rem;color:#2C3E50;font-weight:500;line-height:1.4}
+.checksteps span::before{content:counter(cs);position:absolute;left:.7rem;top:.7rem;width:22px;height:22px;border-radius:50%;
+background:#1B5FA8;color:#FFFFFF;font-family:"IBM Plex Mono",monospace;font-size:.78rem;display:flex;align-items:center;justify-content:center}
+.hub a .go{display:block;margin-top:.55rem;color:#1B5FA8;font-weight:600;font-size:.85rem}
+
+.langbar{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;background:#0A2138;
+padding:.45rem clamp(1rem,4vw,3rem);border-bottom:1px solid rgba(127,168,204,.25)}
+.langbar .lk{font-family:"IBM Plex Mono",monospace;font-size:.64rem;letter-spacing:.24em;
+text-transform:uppercase;color:#7FA8CC;margin-right:.35rem;white-space:nowrap}
+.langbar a{font-family:"IBM Plex Mono",monospace;font-size:.74rem;letter-spacing:.12em;
+color:#C9DAEB;text-decoration:none;padding:.26rem .6rem;border-radius:99px;border:1px solid transparent}
+.langbar a:hover{border-color:rgba(156,196,234,.5);background:rgba(255,255,255,.08)}
+.langbar a.on{background:#1B5FA8;color:#FFFFFF;font-weight:600}
+@media (max-width:760px){
+main{padding-left:clamp(1rem,4vw,2rem);padding-right:clamp(1rem,4vw,2rem)}
+.langbar{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;gap:.3rem}
+.langbar::-webkit-scrollbar{display:none}
+.langbar a{padding:.42rem .66rem;flex:0 0 auto}
+.langbar .lk{flex:0 0 auto}
+table{font-size:.88rem}
+th,td{padding:.5rem .55rem}
+.topbar{padding:.7rem clamp(1rem,4vw,2rem);flex-wrap:wrap;row-gap:.4rem;gap:.5rem}
+.topbar a.cta{font-size:.64rem;letter-spacing:.05em;padding:.44rem .7rem;white-space:nowrap}
+.brand .word{letter-spacing:.1em}
+.ctabox .row a,.btn{min-height:44px;display:inline-flex;align-items:center}
+.hook{flex-wrap:wrap}
+.hook b{font-size:clamp(1.7rem,9vw,2.4rem)}
+}
+@media print{.topbar,.ctabox,.related,footer,.noprint{display:none !important}body{background:#fff}.tablewrap{overflow:visible}}
+</style>
+</head>
+<body>
+<nav class="topbar"><a class="brand" href="/"><span class="seal">E</span><span class="word">ELKHOLY</span></a>
+<a class="cta" href="/#contact">Speak with me</a></nav>
+<div class="langbar noprint" translate="no"><span class="lk">Language</span><a class="on" href="/notes/philosophy-of-cost-containment/">EN</a><a href="/de/notes/philosophy-of-cost-containment/">DE</a><a href="/nl/notes/philosophy-of-cost-containment/">NL</a><a href="/fr/notes/philosophy-of-cost-containment/">FR</a><a href="/pl/notes/philosophy-of-cost-containment/">PL</a><a href="/cs/notes/philosophy-of-cost-containment/">CS</a><a href="/it/notes/philosophy-of-cost-containment/">IT</a><a href="/ru/notes/philosophy-of-cost-containment/">RU</a><a href="/lt/notes/philosophy-of-cost-containment/">LT</a><a href="/bg/notes/philosophy-of-cost-containment/">BG</a><a href="/ro/notes/philosophy-of-cost-containment/">RO</a><a href="/el/notes/philosophy-of-cost-containment/">GR</a><a href="/sr/notes/philosophy-of-cost-containment/">SR</a><a href="/hu/notes/philosophy-of-cost-containment/">HU</a></div>
+<main>
+<p class="kicker">Field notes · The essay</p>
+<h1>The philosophy of cost containment.</h1>
+<p class="byline">By <b>Dr Hossam Elkholy</b>, physician and physician with years of senior clinical and cost responsibility for hospital care on Egypt's Red Sea coast · Updated June 2026</p>
+<div class="hook"><b>1963</b><div><p class="ht">The year economics proved why medical bills detach from value.</p><p class="hs">Arrow's market failure, Munger's incentives, and the five principles that survive contact with a live invoice.</p></div></div>
+
+<p>Every claims desk eventually meets an invoice that reads further than the care went. The usual response is
+procedural: another form, another vendor, another percentage point of discount. This essay is about the other
+response, the one the discipline's own literature has been pointing to for sixty years. Cost containment is not
+a stack of techniques. It is a short list of principles about information, incentives and repeated games, and
+once you hold the principles, the techniques sort themselves into the useful and the theatrical.</p>
+
+<div class="quotecard"><p>Show me the incentive and I will show you the outcome.</p>
+<cite>Charlie Munger</cite></div>
+
+<div class="callout"><b>Cui bono?</b> Roman advocates opened every hard case with that question: who stands to
+gain? Two thousand years on it is still the fastest audit of a claims chain. Ask it of every party that touches
+your file, including the parties paid to contain it, and the chain answers for itself.</div>
+<div class="chain noprint" aria-label="The claims chain">
+<div class="node steel"><b>You, the payer</b><span>carry the loss ratio</span></div>
+<div class="arrow">&rarr;</div>
+<div class="node"><b>Assistance company</b><span>paid per case handled</span></div>
+<div class="arrow">&rarr;</div>
+<div class="node"><b>TPA / cost container</b><span>paid on invoice volume</span></div>
+<div class="arrow">&rarr;</div>
+<div class="node claret"><b>Hospital</b><span>writes the bill, keeps your precedent file</span></div>
+</div>
+
+<h2>Two papers that explain your loss ratio</h2>
+<p>In 1963 Kenneth Arrow, later a Nobel laureate, published the paper that founded health economics. His point
+was structural: medical care defeats ordinary market discipline because the seller knows vastly more than the
+buyer, about what is needed, what was done, and what it should cost. Seven years later George Akerlof's famous
+"market for lemons" generalised the law: wherever one side holds the information, price detaches from value,
+and the honest and the inflated trade at the same confident face value. Both men were writing theory. A claims
+desk reads the applied version every morning.</p>
+<div class="versus noprint" aria-label="What each side of the table holds">
+<div class="vc bed"><h5>The bedside holds</h5><ul>
+<li>The complete clinical record, in its original language</li>
+<li>The true local cost of every line</li>
+<li>What was actually done, and what was actually needed</li>
+<li>Your payment history, kept as a file</li>
+</ul></div>
+<div class="vc desk"><h5>The desk holds</h5><ul>
+<li>A translated summary, written to be paid</li>
+<li>An itemised invoice, priced to the payer</li>
+<li class="dim">A tariff to check it against</li>
+<li class="dim">A regulator to appeal to</li>
+</ul></div>
+</div>
+<p>Notice what the two struck lines mean. Domestic cost containment, everything your company does at home,
+stands on referees: a tariff, a network contract, a regulator, a court that can be reached economically. The
+literature calls medicine an asymmetric market even with those referees present. A Red Sea tourist file is that
+same market with the referees deleted. Nothing about the desk's diligence changed; the floor under it did.</p>
+
+<h2>What the discipline actually built, and when</h2>
+<p>I hold the industry's own history in genuine respect, because each instrument in it was a real answer to a
+real failure. The sequence is worth knowing, because each step also names the assumption it cannot work
+without.</p>
+<div class="timeline noprint" aria-label="A short history of cost containment">
+<div class="tl"><b>1929 · PREPAYMENT</b><span>Dallas schoolteachers prepay Baylor Hospital for care, the seed of
+Blue Cross. The payer-hospital relationship, and its tensions, are born.</span></div>
+<div class="tl"><b>1963 · THE DIAGNOSIS</b><span>Kenneth Arrow's "Uncertainty and the Welfare Economics of Medical
+Care" founds health economics: medical markets fail because one side knows more than the other.</span></div>
+<div class="tl"><b>1970 · THE LEMONS</b><span>George Akerlof shows what asymmetric information does to any market:
+price detaches from quality. Swap used cars for line items and the paper reads like a claims file.</span></div>
+<div class="tl"><b>1973 · MANAGED CARE</b><span>The HMO Act puts a manager between doctor and payment. Utilisation
+review, pre-authorisation and case management become professions.</span></div>
+<div class="tl"><b>1983 · THE DRG REVOLUTION</b><span>Medicare stops paying the bill and starts paying the
+diagnosis: prospective payment by diagnosis-related group. The most successful cost-containment instrument ever
+deployed, and it works by deleting the invoice's power to grow.</span></div>
+<div class="tl"><b>1990s · THE CRITERIA HANDBOOKS</b><span>InterQual and the criteria sets that followed turn
+"medically necessary" from an opinion into an auditable question, line by line, day by day.</span></div>
+<div class="tl"><b>TODAY · THE UNFINISHED EDGE</b><span>All of it assumes a tariff, a network, a regulator, or a
+court. Cross-border tourist medicine has none of the four, which is why the discipline's hardest cases now sit
+on travel desks.</span></div>
+</div>
+<p>The masterstroke of the series is 1983. Diagnosis-related groups worked because they refused the invoice
+itself: pay the diagnosis a fixed, evidence-derived sum, and the incentive to grow the bill dies at the root.
+Note the philosophy, not the mechanism. DRGs are incentive design, not auditing. The lesson for any payer is
+that the deepest savings never come from arguing lines; they come from changing what the other side finds
+profitable to write.</p>
+<div class="chain noprint" aria-label="Fee for service">
+<div class="node claret"><b>Fee for service</b><span>every additional line earns; the invoice is the product</span></div>
+<div class="arrow">&rarr;</div>
+<div class="node claret"><b>The bill grows</b><span>and auditing chases it after the fact</span></div>
+</div>
+<div class="chain noprint" aria-label="Prospective payment">
+<div class="node green"><b>Prospective payment</b><span>the diagnosis earns a fixed, evidence-derived sum</span></div>
+<div class="arrow">&rarr;</div>
+<div class="node green"><b>Growth is pointless</b><span>the incentive to pad dies at the root</span></div>
+</div>
+
+<h2>The two illusions that eat budgets</h2>
+<p>Where the referees are missing, two well-documented cognitive traps do most of the damage, and both wear the
+costume of diligence.</p>
+<div class="quotecard"><p>When a measure becomes a target, it ceases to be a good measure.</p>
+<cite>Goodhart's law, in Marilyn Strathern's phrasing</cite></div>
+<p><b>The first illusion is the discount KPI.</b> The moment "percent saved off billed charges" becomes the
+desk's target, the supplier obliges by raising the number the percentage is taken from. The metric improves
+every quarter while the cash cost climbs. Frederic Bastiat, writing in 1850, called this the difference between
+what is seen and what is not seen: the seen is the discount on the settlement sheet; the unseen is the baseline
+quietly indexed to your tolerance. It is the claims version of the management line often credited to Peter
+Drucker, that what gets measured gets managed: measure the discount, and a discount is exactly what you will
+be given.</p>
+<div class="wf" aria-label="The discount illusion, illustrative">
+<div class="bar">
+<div class="seg" style="flex:33;background:#0B5C48">defensible: 6,000</div>
+<div class="seg" style="flex:52;background:#8C2F39">inflation above the record: 9,300</div>
+<div class="seg" style="flex:15;background:#C25E18">your "15% discount": 2,700</div>
+</div>
+<div class="legend">
+<span><i style="background:#0B5C48"></i>what the record supports</span>
+<span><i style="background:#8C2F39"></i>what you still overpay</span>
+<span><i style="background:#C25E18"></i>what the discount returns</span>
+</div>
+<p class="src" style="font-size:.76rem;color:#5B6C7D;margin-top:.5rem">Illustrative: an 18,000 invoice with a 15 percent network discount settles at 15,300 against a 6,000 defensible cost.</p></div>
+<div class="quotecard"><p>It is difficult to get a man to understand something when his salary depends upon his
+not understanding it.</p><cite>Upton Sinclair</cite></div>
+<p><b>The second illusion is the anchor.</b> Kahneman and Tversky showed in 1974 that the first number on the
+table frames every number after it, even for experts who know the trick is being played. A headline invoice is
+not information; it is an opening position, written by the party who keeps your payment history. Negotiate
+downward from it and you are working inside the author's frame.</p>
+<div class="chart"><p class="t">The anchor at work, figures from the specimen file</p>
+<svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg">
+<line x1="40" y1="168" x2="540" y2="168" stroke="#D8E2EC"/>
+<rect x="70"  y="32"  width="110" height="136" rx="4" fill="#8C2F39"/>
+<rect x="235" y="55"  width="110" height="113" rx="4" fill="#C25E18"/>
+<rect x="400" y="122" width="110" height="46"  rx="4" fill="#0E7A5F"/>
+<g font-family="IBM Plex Mono,monospace" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="600">
+<text x="125" y="54">18,460</text><text x="290" y="77">15,300</text><text x="455" y="144">6,100</text></g>
+<g font-family="Inter,sans-serif" font-size="9.3" fill="#5B6C7D" text-anchor="middle">
+<text x="125" y="186">the ask, the anchor</text><text x="290" y="186">"discounted" settlement</text><text x="455" y="186">what the record supports</text></g>
+</svg>
+<p class="src">Illustrative specimen figures. Kahneman and Tversky described it in 1974: the first number frames
+every number that follows. The asking price is the anchor, and negotiating from it is exactly what the author
+of the anchor intended.</p></div>
+
+<h2>The five principles that survive</h2>
+<p>Strip away every instrument that needs a referee, keep what the sixty years of literature actually proves,
+and you are left with five working principles. They are the whole philosophy of this desk.</p>
+<div class="sixgrid noprint" aria-label="The five principles">
+<div class="cl"><i>1</i><b>Incentives before instruments</b><span>map who earns what when the bill grows, before
+trusting any process placed between you and it</span></div>
+<div class="cl"><i>2</i><b>Position beats process</b><span>information problems are solved by where your reader
+stands, not by how many forms travel</span></div>
+<div class="cl"><i>3</i><b>The record is the tariff</b><span>where no fee schedule exists, the clinical record is
+the only document with authority over the invoice</span></div>
+<div class="cl"><i>4</i><b>Reputation is priced</b><span>claims are a repeated game; every settlement teaches the
+market what your guarantee is worth</span></div>
+<div class="cl"><i>5</i><b>Skin in the game</b><span>trust no verdict from a reviewer who is paid the same when he
+is wrong; pay for outcomes, not activity</span></div>
+<div class="cl"><i>&#10003;</i><b>The test</b><span>any vendor, any tool, any clause: which principle does it
+serve? If the answer is none, it is theatre.</span></div>
+</div>
+<div class="quotecard"><p>If you know the enemy and know yourself, you need not fear the result of a hundred
+battles.</p><cite>Sun Tzu, The Art of War</cite></div>
+<p>Sun Tzu is principle two stated twenty-five centuries early. The asymmetry Arrow described is not abolished
+by paperwork; it is abolished by a reader who has stood on the other side of it. I have written the documents
+your desk receives, run the operation that produces them, and priced the files your guarantees are measured
+against. That is not a credential; it is a position, and position is the thing the lemons market cannot
+defend against.</p>
+
+<h2>The repeated game</h2>
+<p>Robert Axelrod's tournaments on the evolution of cooperation proved what every billing office already knows
+by instinct: in a repeated game, reputation is the currency. Your claims relationship with this coast is not a
+series of independent negotiations; it is one long game in which each settlement teaches the other side what
+your paper is worth. Pay unread, and the lesson is recorded in your <a href="/notes/payer-precedent-file/">
+precedent file</a>. Review visibly, pay conforming invoices promptly, dispute on the record and never by
+silence, and within a season the asks addressed to your desk fall on their own. Containment, done properly, is
+not an argument you win; it is a reputation you set.</p>
+<div class="chart noprint"><p class="t">The precedent loop, and its only exit</p>
+<div class="chain noprint" style="margin:.5rem 0 0"><div class="node claret"><b>1</b><span>you settle unread</span></div><div class="arrow">&rarr;</div><div class="node steel"><b>2</b><span>your file records consent</span></div><div class="arrow">&rarr;</div><div class="node claret"><b>3</b><span>the next ask opens higher</span></div><div class="arrow">&rarr;</div><div class="node"><b>4</b><span>the season costs more</span></div><div class="arrow" title="loops back" aria-label="loops back">&#8635;</div></div><p style="text-align:center;color:#0B5C48;font-weight:600;font-size:.92rem;margin:.6rem 0 .2rem">the exit: review visibly, pay promptly, dispute on the record</p>
+<p class="src">Schematic. Reputation runs the loop in both directions: a payer known to read is quoted differently.</p></div>
+
+<div class="quotecard"><p>Price is what you pay. Value is what you get.</p>
+<cite>Warren Buffett</cite></div>
+
+<h2>Decided before, not after</h2>
+<p>The last conviction is about timing, and it is the one the checklist movement taught medicine itself. Atul
+Gawande's surgical checklists save lives not by adding intelligence but by moving a handful of questions to the
+moment before the irreversible step. A claims file obeys the same law. The expensive decisions, admit or treat
+as outpatient, operate or repatriate, guarantee with clauses or guarantee blank, are all taken in the first
+hours, and every one of them is cheap to influence before and ruinous to argue after. A desk that reads in
+September, authorises theatre on clinical findings within two hours, and reviews before settlement is not
+working harder than the desk that audits in February. It is simply standing earlier in the file.</p>
+<div class="quotecard"><p>An ounce of prevention is worth a pound of cure.</p>
+<cite>Benjamin Franklin</cite></div>
+
+<div class="stats">
+<div class="stat steel"><b>1963</b><span>Arrow names the asymmetry your desk lives with</span></div>
+<div class="stat claret"><b>1983</b><span>DRGs prove incentives beat auditing</span></div>
+<div class="stat"><b>0</b><span>tariffs binding an Egyptian hospital to a foreign payer</span></div>
+<div class="stat green"><b>1</b><span>reader at the source restores the missing referee</span></div>
+</div>
+
+<div class="dlg"><p class="cap">Illustrative exchange, the philosophy on a live call</p>
+<div class="turn desk"><span class="who">Claims desk</span><p>The invoice is far above anything we would see at home. Our containment partner secured fifteen percent. Do we accept?</p></div>
+<div class="turn me"><span class="who">Independent physician</span><p>Set the percentage aside; it is measured against their number, not yours. The record documents four inpatient nights and no indication for the second procedure. Pay the four nights and the genuine care in full, decline the rest in writing, on the clinical findings.</p></div>
+<div class="turn desk"><span class="who">Claims desk</span><p>And if they refuse?</p></div>
+<div class="turn me"><span class="who">Independent physician</span><p>They are pricing your next season, and so are you. A defensible position, politely held, is the cheapest message your desk will ever send.</p></div>
+</div>
+
+<p class="pull">The invoice is a text. The clinical record is its only honest critic.</p>
+
+<h2>The shelf behind this essay</h2>
+<p>None of this is private cleverness. It is the discipline's own canon, read with a clinician's eye and tested
+against live files. If your desk wants to go deeper, start here; every argument above has a spine on this
+shelf.</p>
+<div class="shelf noprint" aria-label="The references">
+<div class="bk" style="--bc:#1B5FA8"><b>Uncertainty and the Welfare Economics of Medical Care</b><span>Kenneth Arrow &middot; 1963</span></div>
+<div class="bk" style="--bc:#8C2F39"><b>The Market for Lemons</b><span>George Akerlof &middot; 1970</span></div>
+<div class="bk" style="--bc:#0E7A5F"><b>The Evolution of Cooperation</b><span>Robert Axelrod &middot; 1984</span></div>
+<div class="bk" style="--bc:#C25E18"><b>Judgment under Uncertainty</b><span>Kahneman &amp; Tversky &middot; 1974</span></div>
+<div class="bk" style="--bc:#2F5D8C"><b>Skin in the Game</b><span>Nassim Nicholas Taleb &middot; 2018</span></div>
+<div class="bk" style="--bc:#134B86"><b>The Checklist Manifesto</b><span>Atul Gawande &middot; 2009</span></div>
+<div class="bk" style="--bc:#0B5C48"><b>The Art of War</b><span>Sun Tzu &middot; 5th century BC</span></div>
+<div class="bk" style="--bc:#5B6C7D"><b>That Which Is Seen, and That Which Is Not Seen</b><span>Frederic Bastiat &middot; 1850</span></div>
+</div>
+
+<div class="quotecard"><p>It is a capital mistake to theorize before one has data.</p>
+<cite>Sherlock Holmes, by Arthur Conan Doyle</cite></div>
+
+<p>There is a line often credited to W. Edwards Deming: in God we trust; all others must bring data. On this
+coast the data is not a benchmark database, because no honest one exists. The data is the chart, the nursing
+notes, the medication record, the original-language file behind the translated summary. Bring those, read them
+beside the invoice with someone who knows how both are written, and cost containment stops being a percentage
+and becomes what the literature always said it was: the restoration of an informed buyer to a market that
+quietly removed one.</p>
+
+<div class="bottomline"><span class="bk">The bottom line</span><p>Instruments age; principles do not. Incentives, information, evidence, reputation and skin in the game read every market, including this coast.</p></div>
+<div class="ctabox noprint">
+<h3>The first case is free.</h3>
+<p>I am paid only as a share of what I remove from the bill, never a percentage of the invoice.
+If the bill does not fall, I earn nothing. To begin, one Egyptian hospital invoice and its clinical
+summary are enough.</p>
+<div class="row">
+<a class="primary" href="/#contact">Bring me one claim</a>
+<a href="/specimen/">See a specimen review</a>
+<a href="https://wa.me/201010344449">Message me on WhatsApp</a>
+</div></div>
+<div class="related noprint"><h3>Also on this desk</h3><a href="/notes/the-engagement/">The engagement, what one reader delivers &rarr;</a>
+<a href="/notes/payer-precedent-file/">What is a payer precedent file? &rarr;</a>
+<a href="/notes/reasonable-and-customary-in-egypt/">Reasonable and customary, with no tariff &rarr;</a>
+<a href="/notes/red-sea-claim-economics/">The economics of a Red Sea claim &rarr;</a></div>
+</main>
+<footer>
+<span>Elkholy Consulting · Expert review of Egyptian hospital claims for international payers</span>
+<span><a href="/">elkholy-consulting.com</a> · <a href="/notes/">Field notes</a> · <a href="/due-diligence/">Due diligence</a> · <a href="/specimen/">Specimen report</a></span>
+</footer>
+<script>
+try{var pl=JSON.stringify({lang:"en",ref:document.referrer||"",page:location.pathname});
+if(navigator.sendBeacon)navigator.sendBeacon("/api/hit",pl);
+else fetch("/api/hit",{method:"POST",headers:{"Content-Type":"application/json"},body:pl,keepalive:true});}catch(e){}
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+# Elkholy Consulting
+> Independent medical cost containment for Egyptian hospital claims. A physician and former
+> hospital medical director on Egypt's Red Sea coast reviews Egyptian hospital invoices for
+> international insurers and assistance companies, before settlement. Paid only as a share of
+> what he removes from the bill, never a percentage of the invoice.
+
+## Core pages
+- [Home](https://elkholy-consulting.com/): the offer, the five-phase ladder, contact
+- [Specimen review report](https://elkholy-consulting.com/specimen/): the exact deliverable, illustrated
+- [Due diligence, answered](https://elkholy-consulting.com/due-diligence/): vendor-review questions answered
+- [GOP checklist](https://elkholy-consulting.com/gop-checklist/): six clauses for guarantees of payment
+
+## Field notes (analysis)
+- [The engagement, what one reader delivers](https://elkholy-consulting.com/notes/the-engagement/): the insider moat, a phased engagement, why one reader beats a department
+- [The philosophy of cost containment](https://elkholy-consulting.com/notes/philosophy-of-cost-containment/): THE essay; Arrow, Akerlof, DRGs, Goodhart, anchoring, repeated games, five principles
+- [The economics of a Red Sea claim](https://elkholy-consulting.com/notes/red-sea-claim-economics/): tourism volumes, currency collapse, invoice anatomy
+- [Egyptian prices: economics, not fraud](https://elkholy-consulting.com/notes/egyptian-prices-economics-not-fraud/): the touristic fee, layer by layer
+- [Why Egyptian hospital bills run high](https://elkholy-consulting.com/notes/why-egyptian-hospital-bills-run-high/): precedent files and service percentages
+- [Why a TPA fails at cost containment](https://elkholy-consulting.com/notes/why-tpa-fails-at-cost-containment/): incentives and the false-security effect
+- [Five incentive lines in your claims chain](https://elkholy-consulting.com/notes/five-incentives-in-your-claims-chain/): the alignment test
+- [The discount illusion](https://elkholy-consulting.com/notes/the-discount-illusion/): why a percentage off an asking price is not a saving
+- [The anatomy of a guarantee of payment](https://elkholy-consulting.com/notes/anatomy-of-a-guarantee-of-payment/): how hospitals read your GOP
+- [Managing a case from 3,000 kilometres](https://elkholy-consulting.com/notes/managing-cases-from-3000-kilometres/): the information problem
+- [Treat in Egypt or repatriate?](https://elkholy-consulting.com/notes/treat-in-egypt-or-repatriate/): the fork that sets the whole cost
+- [How to verify an Egyptian hospital invoice](https://elkholy-consulting.com/notes/verify-egyptian-hospital-invoice/): five practical checks
+- [What is a payer precedent file?](https://elkholy-consulting.com/notes/payer-precedent-file/): the record kept on every payer
+- [Reasonable and customary, with no tariff](https://elkholy-consulting.com/notes/reasonable-and-customary-in-egypt/): three reference points that hold
+- [The ICU day](https://elkholy-consulting.com/notes/icu-day-billing/): the most expensive line and the step-down question
+- [Diving claims on the Red Sea](https://elkholy-consulting.com/notes/diving-claims-red-sea/): reading the hyperbaric invoice
+- [The quiet lines: pharmacy and consumables](https://elkholy-consulting.com/notes/pharmacy-and-consumables/): four growth patterns
+- [The winter wave](https://elkholy-consulting.com/notes/red-sea-winter-wave/): seasonality and the September checklist
+- [The repatriation ladder](https://elkholy-consulting.com/notes/repatriation-ladder/): escort, stretcher, air ambulance
+- [The admission conversion](https://elkholy-consulting.com/notes/outpatient-to-inpatient/): how outpatient visits become inpatient files
+- [The deposit despite your guarantee](https://elkholy-consulting.com/notes/cash-deposit-despite-guarantee/): how a desk re-prices its paper
+- RSS feed of all notes: https://elkholy-consulting.com/notes/feed.xml
+
+## German versions
+- All notes and tools are also available in German under https://elkholy-consulting.com/de/ (own translations, not machine proxy)
+
+## Contact
+- Email: hossam@elkholy-consulting.com · Phone/WhatsApp: +20 10 1034 4449
