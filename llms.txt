@@ -1,8 +1,7 @@
 # Elkholy Consulting
 > Independent medical cost containment for Egyptian hospital claims. A physician and former
 > hospital medical director on Egypt's Red Sea coast reviews Egyptian hospital invoices for
-> international insurers and assistance companies, before settlement. Paid only as a share of
-> what he removes from the bill, never a percentage of the invoice.
+> international insurers and assistance companies, before settlement.
 
 ## Core pages
 - [Home](https://elkholy-consulting.com/): the offer, the five-phase ladder, contact
